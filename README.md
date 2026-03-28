@@ -4,6 +4,8 @@ Converts Paint Shop Pro (.psp / .pspimage) files to SVG.
 
 If you have old PSP files from the late 90s or early 2000s and want to turn them into modern, scalable SVGs -- this tool does that. It handles vector layers (paths, shapes, gradients) and raster layers (embedded as PNGs inside the SVG).
 
+This was vibe-coded in about a day with [Claude Code](https://claude.ai/claude-code).
+
 ## Examples
 
 Here are a few conversions from PSP to SVG, rendered as PNG previews:
@@ -73,6 +75,8 @@ node index.js --vectors-only input.psp output.svg
 - **Palette-based images** (1-bit, 4-bit) may not render correctly.
 - **Text layers** are not supported. PSP stores text as vector outlines in some cases, which will convert fine, but native text objects are skipped.
 - **Dash patterns** (styled lines) are parsed but not yet emitted in the SVG output.
+
+If you need one of these features, feel free to fork the repo. The PSP format spec can be found online -- grab it and use your friendly neighborhood LLM to help you add what you need.
 
 ## Programmatic use
 
