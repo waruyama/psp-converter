@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <defs>
+    <radialGradient id="grad1" gradientUnits="userSpaceOnUse" cx="9.04" cy="5.81" r="432.85" fx="9.04" fy="5.81">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="57%" stop-color="#ccccff"/>
+      <stop offset="97%" stop-color="#9999cc"/>
+      <stop offset="100%" stop-color="#9999cc"/>
+    </radialGradient>
+    <linearGradient id="grad2" gradientUnits="objectBoundingBox" x1="0.031" y1="-0.027" x2="0.957" y2="1.038">
+      <stop offset="0%" stop-color="#ccccff"/>
+      <stop offset="5%" stop-color="#ccccff"/>
+      <stop offset="78%" stop-color="#666699"/>
+      <stop offset="100%" stop-color="#666699"/>
+    </linearGradient>
+    <radialGradient id="grad3" gradientUnits="userSpaceOnUse" cx="145.22" cy="111.83" r="154.89" fx="145.22" fy="111.83">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.00"/>
+      <stop offset="31%" stop-color="#ffffff" stop-opacity="0.00"/>
+      <stop offset="90%" stop-color="#ffffff" stop-opacity="0.98"/>
+      <stop offset="91%" stop-color="#ffffff"/>
+    </radialGradient>
+    <radialGradient id="grad4" gradientUnits="userSpaceOnUse" cx="123.48" cy="291" r="270.29" fx="123.48" fy="291">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.39"/>
+      <stop offset="87%" stop-color="#ffffff" stop-opacity="0.61"/>
+      <stop offset="97%" stop-color="#ffffff" stop-opacity="0.63"/>
+    </radialGradient>
+  </defs>
+  <g id="Copy of Vector Selection">
+    <path d="M 160.47,5.81 C 75.49,5.81 6,46 5.95,119.98 C 5.95,147.39 17,194 63,220 C 72,267.83 97,298 150,312 C 150.96,313.44 127,263 140,234 C 140,234 173.1,233.77 173.1,233.77 C 230,232.61 315,198 315,123 C 315,49 245.46,5.81 160.47,5.81 Z" fill="url(#grad1)" stroke="url(#grad2)" stroke-width="10" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10"/>
+    <path d="M 145.22,20.3 C 258.13,16.85 141.38,56.44 107.56,75.48 C 73.73,94.53 20.27,179.17 20.27,111.83 C 20.28,63.59 76.5,22.4 145.22,20.3 Z" fill="url(#grad3)"/>
+    <path d="M 131,291 C 113,268 101,223 122,199 C 252,222 316.18,119.38 270.3,64.05 C 326.55,117.47 288,227 128,217 C 116,236 119,253 131,291 Z" fill="url(#grad4)"/>
+  </g>
+</svg>

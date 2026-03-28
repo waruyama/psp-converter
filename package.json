@@ -1,0 +1,14 @@
+{
+  "name": "psp-converter",
+  "version": "1.0.0",
+  "description": "Converts Paint Shop Pro (.psp/.pspimage) files to SVG",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "convert": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}
