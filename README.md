@@ -1,6 +1,6 @@
 # psp-converter
 
-Converts Paint Shop Pro (.psp / .pspimage) files to SVG.
+Converts legacy Paint Shop Pro (.psp / .pspimage) files to SVG.
 
 If you have old PSP files from the late 90s or early 2000s and want to turn them into modern, scalable SVGs -- this tool does that. It handles vector layers (paths, shapes, gradients) and raster layers (embedded as PNGs inside the SVG).
 
@@ -95,6 +95,10 @@ convertFile('input.psp', 'output.svg');
 // Vector layers only
 convertFile('input.psp', 'output.svg', { vectorsOnly: true });
 ```
+
+## Disclaimer
+
+This is an unofficial, independent converter. It is not affiliated with, endorsed by, or related to Corel Corporation or any of its products.
 
 ## License
 
