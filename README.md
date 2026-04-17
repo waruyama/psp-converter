@@ -56,6 +56,24 @@ node index.js input-dir/ output-dir/ preview-dir/
 node index.js --vectors-only input.psp output.svg
 ```
 
+## Docker
+
+If you prefer not to install any dependencies locally, build the image once and then use `docker run` directly from any directory containing your PSP files.
+
+```bash
+git clone https://github.com/waruyama/psp-converter.git
+cd psp-converter
+docker build -t psp-converter .
+```
+
+Then, from the directory containing your files:
+
+```bash
+docker run --rm -v "$(pwd):/workspace" psp-converter input.psp output.svg
+```
+
+All the commands from the [Usage](#usage) section work the same way — just replace `node index.js` with `docker run --rm -v "$(pwd):/workspace" psp-converter`.
+
 ## What it supports
 
 - Vector layers with bezier paths (polylines, ellipses, polygons)
